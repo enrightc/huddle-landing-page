@@ -7,17 +7,18 @@
   }
 
   body {
+    background: hsl(257, 40%, 49%);
+    background-image: url("/assets/images/bg-desktop.svg");
     min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
     margin: 0;
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,9 +27,14 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
   }
   
+.logo {
+    height: 30px;
+    margin: 30px;
 
-  .div1 {
-    background-image: url("assets/images/Groot 2 (1).png");
-    width:500px;
-    height:500px;
+  }
+ header {
+    display: flex;
+    justify-content: flex-start;
+ } 
+
   
